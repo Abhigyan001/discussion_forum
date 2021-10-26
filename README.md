@@ -1,11 +1,49 @@
-![Let's Build: With Ruby on Rails - Discussion Forum](https://i.imgur.com/GA9Azed.jpg)
+# Project :  Discussion Forum
+Discussion Forum is a forum built with Ruby on Rails and Bulma that lets users sign up and join a discussion. Users can also create a new discussion where other users can comment. Users can only edit or delete their discussions. Only admins can create new categories for discussions. This was built using Ruby On Rails, PostgreSQL, and Bulma.
 
-# Let's Build: With Ruby on Rails - Discussion Forum
+![screenshot](./img/ss3.png)
 
-Continuing my long stent of Ruby on Rails builds is yet another build which focuses more on relationships in a real-world discussion forum application.
+## Live Demo
 
-The application on the outside looks a little bleak but I promise there is a lot going on under the hood of which you could extend to be something very feature rich. 
+[Live Demo Link](https://rails-discussion-forum.herokuapp.com/)
 
-Follow along with more videos on [YouTube](https://www.youtube.com/playlist?list=PL01nNIgQ4uxNkDZNMON-TrzDVNIk3cOz4) or my [original blog post](https://web-crunch.com/lets-build-with-ruby-on-rails-discussion-forum) and be sure to download the source code on this repo to both explore the application and refer to it as you build alongside me.
+## Build-With
 
-If you enjoy these Let's Builds I can't thank you enough for tuning in. I hate asking for anything in return so only if you insist you can [buy my a coffee](https://buymeacoff.ee/webcrunch) to keep these going. Also, be sure to subscribe to my [YouTube channel](https://youtube.com/c/webcrunch) and [newsletter](https://web-crunch.com/subscribe) for automatic updates. 
+- Ruby -v 2.6.3
+- Rails -v 5.2.0
+- Postgresql
+- Atom
+
+## Getting Started
+
+### Prerequisites
+
+To get this project up and running locally, you must already have ruby and necessary gems installed on your computer
+
+**To get this project set up on your local machine, follow these simple steps:**
+
+1. Open Terminal.
+2. Navigate to your desired location to download the contents of this repository.
+3. Copy and paste the following code into the Terminal: git clone https://github.com/Abhigyan001/discussion_forum
+4. Run ```cd discussion_forum```.
+5. Run ```bundle install``` to get the necesary gems.
+6. Run `rails db:create`.
+6. Run `rails db:migrate`.
+7. Run `rails server`
+
+
+## Author Details::
+
+👤 ABHIGYAN Mahanta
+
+- Github: [@Abhigyan001](https://github.com/Abhigyan001)
+- Twitter: [@abhigyan_001](https://twitter.com/abhigyan_001)
+- LinkedIn: [Abhigyan](https://www.linkedin.com/in/abhigyanmahanta/)
+
+## Show your support
+
+Give ⭐ Star me on GitHub — it helps!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
